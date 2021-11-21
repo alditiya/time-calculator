@@ -1,13 +1,13 @@
 def add_time(start, duration, day_name=None):
     day_count = 0
     name_in_week = {
-        1: 'Saturday',
-        2: 'Sunday',
-        3: 'Monday',
-        4: 'Tuesday',
-        5: 'Wednesday',
-        6: 'Thursday',
-        7: 'Friday'
+        1: 'Sunday',
+        2: 'Monday',
+        3: 'Tuesday',
+        4: 'Wednesday',
+        5: 'Thursday',
+        6: 'Friday',
+        7: 'Saturday'
     }
     start_time_list = start.split()
     hour = int(start_time_list[0].split(':')[0])
